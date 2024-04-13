@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0D1117;
+}
+a {
+    text-decoration: none;
+}
+.box{
+    text-align: center;
+}
+.box h2{
+    margin-bottom: 100px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+.button-container button {
+    height: 50px;
+    width: 200px;
+    background: white;
+    border-radius: 5px;
+    color: blue;
+    font-weight: 600;
+    cursor: pointer;
+}
