@@ -15,8 +15,18 @@ button.addEventListener('click', function () {
             imageUrl: "img/sad.jpg",
             imageHeight: 200,
             imageAlt: "A tall image",
-            text: "É, nem queria mesmo..."
-        });
+            text: "É, nem queria mesmo...",
+            confirmButtonText: "Não mesmo.",
+            confirmButtonColor: '#d33',
+            showCancelButton: true,
+            cancelButtonText: "Mudei de ideia",
+            cancelButtonColor: '#3085d6',
+            allowOutsideClick: false
+          }).then((result) => {
+            if (result.value) {
+              window.location.href = "https://www.youtube.com/watch?v=z-weWuwFmKM&list=RDMM-YOOjdk6cpQ&index=17";
+            }
+          });
     }
 
     cont = cont + 1;
