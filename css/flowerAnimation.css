@@ -141,7 +141,7 @@ body {
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
   background-color: #65e6cc;
-  background-image: linear-gradient(to top, #40bbab, #a7ffee);
+  background-image: linear-gradient(to top, red, rgb(255, 127, 149));
   transform-origin: bottom center;
   opacity: 0.9;
   box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
@@ -983,4 +983,10 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 }
 .not-loaded * {
   animation-play-state: paused !important;
+}
+
+@media (min-width: 100px) and (max-width: 1200px) {
+  .flowers {
+    transform: scale(1  );
+  }
 }
